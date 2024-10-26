@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const ProfileSection = () => {
@@ -5,10 +6,11 @@ const ProfileSection = () => {
       <div className="container flex flex-col md:flex-row gap-4 mb-8">
         <div className="flex justify-center">
           <div className="w-[120px] h-[120px] bg-cover bg-top rounded-full"
-            style={{
-              backgroundImage: `url("/assets/img/foto_fkr.png")`,
-            }}
           >
+            <Image src="/assets/img/foto_fkr.png" alt="foto_fkr" className='rounded-full object-cover object-top bg-clip-border w-[120px] h-[120px]' width={100} height={100} />
+            <div className='text-center mt-3'>
+              <p className='text-sm font-semibold'>Fulstack Dev</p>
+            </div>
           </div>
         </div>
         <div>
