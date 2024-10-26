@@ -5,11 +5,11 @@ import React, { useEffect } from 'react'
 
 const NavbarSection = () => {
 
-  const [thme, setTheme] = React.useState<any>(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'dark');
+  const [thme, setTheme] = React.useState<any>(window.localStorage.getItem('theme') ? window.localStorage.getItem('theme') : 'dark');
 
   useEffect(() =>{
-    localStorage.setItem('theme', thme)
-    const itemStorage:any = localStorage.getItem('theme')
+    window.localStorage.setItem('theme', thme)
+    const itemStorage:any = window.localStorage.getItem('theme')
     const element = document.querySelector('html')
     if (element) {
       element?.setAttribute('data-theme', itemStorage)
