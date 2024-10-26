@@ -8,15 +8,20 @@ const NavbarSection = () => {
   const [thme, setTheme] = React.useState<any>(window.localStorage.getItem('theme') ? window.localStorage.getItem('theme') : 'dark');
 
   useEffect(() =>{
-    window.localStorage.setItem('theme', thme)
-    const itemStorage:any = window.localStorage.getItem('theme')
-    const element = document.querySelector('html')
-    if (element) {
-      element?.setAttribute('data-theme', itemStorage)
-      element?.setAttribute('class', itemStorage)
-    }
-    // set 
+    init()
   },[thme])
+
+  const init =  () => {
+    if (typeof window !== 'undefined'){
+      window.localStorage.setItem('theme', thme)
+      const itemStorage:any = window.localStorage.getItem('theme')
+      const element = document.querySelector('html')
+      if (element) {
+        element?.setAttribute('data-theme', itemStorage)
+        element?.setAttribute('class', itemStorage)
+      }
+    }
+  }
 
 
   const handleSwitchTheme = (val:any) => {
