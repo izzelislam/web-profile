@@ -159,7 +159,7 @@ const portos = [
           
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>convert ui dari figma ke code</li>
               <li>implementasi api,yg sudah disediakan</li>
@@ -218,7 +218,7 @@ const portos = [
           
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>merancang sistem</li>
               <li>convert ui dari figma ke code</li>
@@ -259,7 +259,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>convert ui to code </li>
               <li>implementasi Api</li>
@@ -302,7 +302,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>convert ui to code </li>
               <li>implementasi Api</li>
@@ -341,7 +341,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>mengembangkan fitur di bagian admin seperti managemen kelas, seminar, transaksi, mengelola user dll</li>
               <li>mengimplementasikan Xendit Thirdparty API sebagai gateway pembayaran dan BSI api sebagai pembayaran utama</li>
@@ -389,7 +389,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>mengembangkan fitur proses perizinan  seperti review dokumen reject dan menyetujui, manajemen user, reminder pengajuan dll</li>
             </ul>
@@ -431,7 +431,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>Mengembangkan fitur proses penjajuan program baru, monitor profit, manajemen user, reminder pengajuan dll</li>
             </ul>
@@ -473,7 +473,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>Membangun UI CMS yang mudah digunakan oleh end user</li>
               <li>membuat dan menguji fitur-fitur baru yang scalable dan mudah di maintenance</li>
@@ -516,7 +516,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>Membangun UI CMS yang mudah digunakan oleh end user</li>
               <li>membuat dan menguji fitur-fitur baru yang scalable dan mudah di maintenance</li>
@@ -561,7 +561,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>Membangun UI CMS yang mudah digunakan oleh end user</li>
               <li>membuat dan menguji fitur-fitur baru yang scalable dan mudah di maintenance</li>
@@ -606,7 +606,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>Memperbaiki bug dari fitur yang sudah ada</li>
               <li>membuat dan menguji fitur-fitur baru yang scalable dan mudah di maintenance</li>
@@ -655,7 +655,7 @@ const portos = [
 
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>Memperbaiki bug dari fitur yang sudah ada</li>
               <li>membuat dan menguji fitur-fitur baru yang scalable dan mudah di maintenance</li>
@@ -699,7 +699,7 @@ const portos = [
 
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>membangun UI yang mudah digunakan oleh end user</li>
               <li>membuat dan menguji fitur-fitur baru yang scalable dan mudah dirawat</li>
@@ -743,7 +743,7 @@ const portos = [
 
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>membangun UI yang mudah digunakan oleh end user</li>
               <li>membuat dan menguji fitur-fitur baru yang scalable dan mudah dirawat</li>
@@ -787,7 +787,7 @@ const portos = [
 
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>membangun UI yang mudah digunakan oleh end user</li>
               <li>membuat dan menguji fitur-fitur baru yang dapat diskalakan dan mudah dirawat</li>
@@ -836,7 +836,7 @@ const portos = [
 
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>Integrasi frontend menggunakan data yang sudah tersedia di backend</li>
               <li>Raja Onkir API untuk memeriksa biaya pengiriman</li>
@@ -884,7 +884,7 @@ const portos = [
           </p>
 
           <div className="mb-6">
-            <p className="font-semibold my-3 text-sm">Tanggung Jawab :</p>
+            <p className="font-semibold my-3 text-sm">Responsibility :</p>
             <ul className="text-sm">
               <li>convert ui to code </li>
               <li>implementasi Api</li>
