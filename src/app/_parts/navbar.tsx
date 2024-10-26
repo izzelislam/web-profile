@@ -1,5 +1,6 @@
+'use client'
+
 import { Icon } from '@iconify/react/dist/iconify.js'
-import { th } from 'framer-motion/client';
 import React, { useEffect } from 'react'
 
 const NavbarSection = () => {
