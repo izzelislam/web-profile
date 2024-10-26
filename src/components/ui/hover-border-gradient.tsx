@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -13,7 +13,6 @@ export function HoverBorderGradient({
   as: Tag = "button",
   duration = 1,
   clockwise = true,
-  href,
   ...props
 }: React.PropsWithChildren<
   {
@@ -22,7 +21,6 @@ export function HoverBorderGradient({
     className?: string;
     duration?: number;
     clockwise?: boolean;
-    href?: string;
   } & React.HTMLAttributes<HTMLElement>
 >) {
   const [hovered, setHovered] = useState<boolean>(false);

@@ -1,15 +1,6 @@
 'use client'
 
-import { PinContainer } from "@/components/ui/3d-pin";
 import { Spotlight } from "@/components/ui/Spotlight";
-import { Timeline } from "@/components/ui/timeline";
-import { Icon } from "@iconify/react/dist/iconify.js";
-import { div } from "framer-motion/client";
-import Image from "next/image";
-import { title } from "process";
-import { Portofolio } from "./_parts/portofolio";
-import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
-import Link from "next/link";
 import NavbarSection from "./_parts/navbar";
 import WorkSection from "./_parts/work";
 import EducationSection from "./_parts/education";

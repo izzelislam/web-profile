@@ -127,7 +127,7 @@ export function Portofolio() {
         ) : null}
       </AnimatePresence>
       <ul className="mx-auto w-full gap-4">
-        {portos.map((card, index) => (
+        {portos.map((card) => (
           <motion.div
             layoutId={`card-${card.title}-${id}`}
             key={`card-${card.title}-${id}`}
