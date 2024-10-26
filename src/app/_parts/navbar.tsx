@@ -5,7 +5,7 @@ import React, { useEffect } from 'react'
 
 const NavbarSection = () => {
 
-  const [thme, setTheme] = React.useState<any>(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'dark');
+  const [thme, setTheme] = React.useState<any>( 'dark');
 
   useEffect(() =>{
     init()

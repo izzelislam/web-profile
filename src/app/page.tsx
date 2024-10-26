@@ -1,4 +1,3 @@
-'use client'
 
 import { Spotlight } from "@/components/ui/Spotlight";
 import NavbarSection from "./_parts/navbar";
