@@ -20,7 +20,12 @@ const ProfileSection = () => {
           </div>
         </div>
         <div>
-          <p className="text-gray-700 dark:text-gray-300/85 text-justify "><span className="text-black dark:text-white font-bold text-2xl">Hi <span className="animate-spotlight">👋</span> </span>, perkenalkan, saya Muttafakur, seorang Fullstack Developer yang menekuni pengembangan web dan mobile aplikasi. Ketertarikan saya pada dunia pemrograman sudah tumbuh sejak bangku SMA, dan mulai serius saya geluti pada 2019 melalui pendidikan non-formal dengan mendalami dasar seperti HTML, CSS, JavaScript, PHP, dan MySQL. Sejak pertengahan 2020, saya memulai karier sebagai Fullstack Developer dan kini berfokus membangun sistem yang rapi, aman, dan mudah dikembangkan menggunakan teknologi modern seperti React, Next.js, Laravel, dan Node.js. Berbagai proyek telah saya kerjakan untuk mendukung efektivitas dan efisiensi pekerjaan dalam bentuk web app maupun mobile app, baik secara tim maupun mandiri.</p>
+          <p className="text-gray-700 dark:text-gray-300/85 text-justify ">
+            <span className="text-black dark:text-white font-bold text-2xl">Hi <span className="animate-spotlight">👋</span>, </span>saya Muttafakur, Fullstack Developer dengan pengalaman sejak 2020. Saya menangani pengembangan web dan aplikasi mobile secara menyeluruh — mulai dari perancangan sistem, coding, hingga deployment. Saya terbiasa bekerja dengan teknologi seperti React, Next.js, Laravel, Node.js, dan Golang, serta nyaman bekerja baik dalam tim maupun secara mandiri.
+          </p>
+          <p className="text-gray-700 dark:text-gray-300/85 text-justify mt-4">
+            Selama ini saya telah menangani berbagai proyek yang mendukung operasional dan pertumbuhan bisnis, mulai dari perusahaan swasta hingga BUMN.
+          </p>
         </div>
     </div>
   )
