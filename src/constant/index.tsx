@@ -3,26 +3,65 @@ import { Link } from "lucide-react";
 import Image from "next/image";
 
 const experience:any = [
- 
+
   {
-    title: "2020 - 2024",
+    title: "2024 - Now",
     content : (
       <div>
-        <p className="text-bold text-gray-500 dark:text-gray-400 text-2xl">Flustack Developer </p>
-        <p className="text-gray-500 dark:text-gray-400 my-3">2021 - Agustis 2024</p>
-        <p className="text-gray-500 dark:text-gray-400 mb-2">MahirTechnology Indonesia</p>
-        <p className="text-gray-500 dark:text-gray-100">Develop test and maintenance a web, web App and Mobile App</p>
+        <p className="text-bold text-gray-500 dark:text-gray-400 text-2xl">Fullstack Developer</p>
+        <p className="text-gray-500 dark:text-gray-400 my-3">2024 - Present</p>
+        <p className="text-gray-500 dark:text-gray-400 mb-2">PT. Royal d&apos;Paragon Land</p>
+        <ul className="list-disc list-inside text-gray-500 dark:text-gray-100 space-y-1">
+          <li>Membangun dan memelihara sistem yang maintainable dengan teknologi modern, dengan fokus pada kode yang readable, scalable, dan aman.</li>
+          <li>Melakukan refactoring pada core codebase untuk meningkatkan performa, kualitas, dan kemudahan perawatan aplikasi.</li>
+          <li>Berperan sebagai Fullstack Developer, menangani pengembangan sisi frontend maupun backend secara end-to-end.</li>
+        </ul>
       </div>
     )
   },
   {
-    title: "2024",
+    title: "2025 - Now (Part-time)",
     content : (
       <div>
-        <p className="text-bold text-gray-500 dark:text-gray-400 text-2xl">Flustack Developer </p>
-        <p className="text-gray-500 dark:text-gray-400 my-3">Agustis 2024 Now</p>
-        <p className="text-gray-500 dark:text-gray-400 mb-2">freelance</p>
-        <p className="text-gray-500 dark:text-gray-100">Develop test and maintenance a web, web App and Mobile App</p>
+        <p className="text-bold text-gray-500 dark:text-gray-400 text-2xl">Fullstack Developer</p>
+        <p className="text-gray-500 dark:text-gray-400 my-3">2025 - Sekarang (Paruh Waktu)</p>
+        <p className="text-gray-500 dark:text-gray-400 mb-2">PT Jaya Perkasa Mandalika</p>
+        <ul className="list-disc list-inside text-gray-500 dark:text-gray-100 space-y-1">
+          <li>Membangun dan memelihara sistem yang maintainable dengan teknologi modern, dengan fokus pada kode yang readable, scalable, dan aman.</li>
+          <li>Melakukan refactoring pada core codebase untuk meningkatkan performa, kualitas, dan kemudahan perawatan aplikasi.</li>
+          <li>Berperan sebagai Fullstack Developer, menangani pengembangan sisi frontend maupun backend secara end-to-end.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    title: "2023",
+    content : (
+      <div>
+        <p className="text-bold text-gray-500 dark:text-gray-400 text-2xl">Backend Developer</p>
+        <p className="text-gray-500 dark:text-gray-400 my-3">Mei - Agustus 2023</p>
+        <p className="text-gray-500 dark:text-gray-400 mb-2">Proksimak</p>
+        <ul className="list-disc list-inside text-gray-500 dark:text-gray-100 space-y-1">
+          <li>Membangun sistem ERP yang scalable, readable, dan aman sesuai kebutuhan bisnis.</li>
+          <li>Merancang struktur data dan API backend yang efisien untuk mendukung kinerja aplikasi.</li>
+          <li>Memelihara serta mengoptimalkan layanan backend agar tetap stabil dan mudah dikembangkan.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    title: "2020 - 2024",
+    content : (
+      <div>
+        <p className="text-bold text-gray-500 dark:text-gray-400 text-2xl">Fullstack Developer</p>
+        <p className="text-gray-500 dark:text-gray-400 my-3">2021 - Agustus 2024</p>
+        <p className="text-gray-500 dark:text-gray-400 mb-2">MahirTechnology Indonesia</p>
+        <ul className="list-disc list-inside text-gray-500 dark:text-gray-100 space-y-1">
+          <li>Merancang dan mengembangkan sistem yang aman, readable, dan maintainable sesuai kebutuhan bisnis.</li>
+          <li>Melakukan deployment aplikasi serta menyiapkan infrastruktur server yang scalable untuk mendukung operasional.</li>
+          <li>Memelihara dan meningkatkan sistem yang sudah berjalan agar tetap stabil, efisien, dan up-to-date.</li>
+          <li>Mengembangkan, menguji, dan memelihara web, web app, serta mobile app secara end-to-end.</li>
+        </ul>
       </div>
     )
   }
@@ -52,88 +91,54 @@ const educations:any = [
 
 const tech = [
   {
-    "name" : "HTML",
-    icon :  "logos:html-5"
+    category: "Frontend",
+    items: [
+      { name: "HTML", icon: "logos:html-5" },
+      { name: "CSS", icon: "logos:css-3" },
+      { name: "JavaScript", icon: "logos:javascript" },
+      { name: "TypeScript", icon: "logos:typescript-icon" },
+      { name: "Tailwind CSS", icon: "logos:tailwindcss-icon" },
+      { name: "Bootstrap", icon: "logos:bootstrap" },
+      { name: "React", icon: "logos:react" },
+      { name: "Next.js", icon: "logos:nextjs-icon" },
+      { name: "Vue", icon: "logos:vue" },
+      { name: "Nuxt.js", icon: "logos:nuxt-icon" },
+    ],
   },
   {
-    "name" : "CSS",
-    icon :  "logos:css-3"
+    category: "Backend",
+    items: [
+      { name: "PHP", icon: "logos:php" },
+      { name: "Laravel", icon: "logos:laravel" },
+      { name: "Node.js", icon: "logos:nodejs-icon" },
+      { name: "Express.js", icon: "logos:nodejs-icon-alt" },
+      { name: "Golang", icon: "logos:go" },
+    ],
   },
   {
-    "name" : "Java Script",
-    icon :  "logos:javascript"
+    category: "Mobile",
+    items: [
+      { name: "Flutter", icon: "logos:flutter" },
+      { name: "React Native", icon: "logos:react" },
+    ],
   },
   {
-    "name" : "Talwind",
-    icon :  "logos:tailwindcss-icon"
+    category: "Database",
+    items: [
+      { name: "MySQL", icon: "logos:mysql" },
+      { name: "PostgreSQL", icon: "logos:postgresql" },
+      { name: "Firebase", icon: "logos:firebase" },
+    ],
   },
   {
-    "name" : "Bootstrap",
-    icon :  "logos:bootstrap"
-  },
-  {
-    "name" : "PHP",
-    icon :  "logos:php"
-  },
-  {
-    "name" : "Node JS",
-    icon :  "logos:nodejs-icon"
-  },
-  {
-    "name" : "Laravel",
-    icon :  "logos:laravel"
-  },
-  {
-    "name" : "Express Js",
-    icon :  "logos:nodejs-icon-alt"
-  },
-  {
-    "name" : "Vue",
-    icon :  "logos:vue"
-  },
-  {
-    "name" : "Nux Js",
-    icon :  "logos:nuxt-icon"
-  },
-  {
-    "name" : "React Js",
-    icon :  "logos:react"
-  },
-  {
-    "name" : "Next Js",
-    icon :  "logos:nextjs-icon"
-  },
-  {
-    "name" : "Flutter",
-    icon :  "logos:flutter"
-  },
-  {
-    "name" : "React Native",
-    icon :  "logos:react"
-  },
-  {
-    "name" : "Mysql",
-    icon :  "logos:mysql"
-  },
-  {
-    "name" : "Postgresql",
-    icon :  "logos:postgresql"
-  },
-  {
-    "name" : "Docker",
-    icon :  "logos:docker-icon"
-  },
-  {
-    "name" : "Linux Server",
-    icon :  "logos:linux-tux"
-  },
-  {
-    "name" : "Git",
-    icon :  "logos:git-icon"
-  },
-  {
-    "name" : "Firebase",
-    icon :  "logos:firebase"
+    category: "DevOps & Tools",
+    items: [
+      { name: "Docker", icon: "logos:docker-icon" },
+      { name: "Terraform", icon: "logos:terraform-icon" },
+      { name: "Ansible", icon: "logos:ansible" },
+      { name: "Linux Server", icon: "logos:linux-tux" },
+      { name: "Git", icon: "logos:git-icon" },
+    ],
   },
 ]
 

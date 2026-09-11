@@ -36,14 +36,6 @@ const ContactSection = () => {
         <Icon icon="logos:google-gmail" className="text-xl" />
         <span>bangfkr002@gmail.com</span>
       </HoverBorderGradient>
-      <HoverBorderGradient
-        containerClassName="rounded-full"
-        as="button"
-        className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
-      >
-        <Icon icon="logos:whatsapp-icon" className="text-xl" />
-        <span>085158768844</span>
-      </HoverBorderGradient>
     </div>
   )
 }
